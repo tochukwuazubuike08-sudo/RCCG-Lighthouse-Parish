@@ -60,13 +60,13 @@ button{font-family:inherit;cursor:pointer;}
   align-items:center;
   font-size:0.82rem;
   letter-spacing:0.02em;
-  padding:0 36px;
+  padding:0 18px;
   white-space:nowrap;
 }
 .ticker-track span strong{color:var(--gold-soft);font-weight:600;}
 .ticker-track span::after{
   content:"•";
-  margin-left:36px;
+  margin:0 18px;
   color:var(--gold);
 }
 @keyframes scroll-ticker{
